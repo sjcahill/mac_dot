@@ -57,9 +57,6 @@ bindkey "^j" down-line-or-beginning-search # Down
 
 compinit
 
-# Remap caps to escape
-setxkbmap -option caps:escape
-
 # Environment variables for applications
 if [ -f $(which nvim) ]
 then
