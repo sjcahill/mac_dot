@@ -1,0 +1,13 @@
+echo $TERMINAL
+exit
+exit
+mydot
+ls
+cd kitty
+ls
+ls -a
+cd .config
+ls
+cd kitty
+nvim kitty.conf
+n
