@@ -28,7 +28,7 @@ zle -N down-line-or-beginning-search
 autoload -Uz colors && colors
 
 # Autocompletion for terraform
-terraform -install-autocomplete
+# terraform -install-autocomplete
 
 # Sourcing functions from `zsh-functions` file
 source "$ZDOTDIR/zsh-functions"
