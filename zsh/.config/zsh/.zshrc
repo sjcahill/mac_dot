@@ -48,8 +48,13 @@ zsh_add_plugin "hlissner/zsh-autopair"
 
 # Poetry dependency manager for Python
 fpath+="$HOME/.zfunc"
+# Autocompletion for conda and mambda
+fpath+="/Users/sj/Repos/conda-zsh-completion"
 
-# Key-bindings
+
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
 bindkey '^[[3~' delete-char
 bindkey '^[[1~' beginning-of-line
 bindkey '^[[4~' end-of-line
@@ -71,7 +76,6 @@ then
 	export TERMINAL="kitty"
 fi
 
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -85,5 +89,9 @@ else
     fi
 fi
 unset __conda_setup
+
+if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh" ]; then
+    . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh"
+fi
 # <<< conda initialize <<<
 
