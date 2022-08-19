@@ -1,0 +1,2 @@
+copy --dest ".bashrc" "$/.config/kitty/ssh-dotfiles/.bashrc"
+copy --dest ".vimrc" "$.config/kitty/ssh-dotfiles/.vimrc"
