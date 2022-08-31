@@ -8,7 +8,7 @@ If the nesting structure of the folders looks a little weird this is because I h
 GNU `stow`.  
 
 You can install `stow` using homebrew and it will place symlinks to the config files in a target directory
-directory regardless of where these dotfiles live on your machine.
+regardless of where these dotfiles live on your machine.
 
 So, assuming you have installed `stow` and cloned this repo. `cd` into this repo directory on your local machine
 and run `stow -t ~ *`.
