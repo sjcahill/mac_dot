@@ -52,16 +52,9 @@ fpath+="$HOME/.zfunc"
 fpath+="/Users/sj/Repos/conda-zsh-completion"
 
 
+# Allow for moving forwards/backwards by a word using Option + arrow key
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
-
-bindkey '^[[3~' delete-char
-bindkey '^[[1~' beginning-of-line
-bindkey '^[[4~' end-of-line
-bindkey "^p" up-line-or-beginning-search # Up
-bindkey "^n" down-line-or-beginning-search # Down
-bindkey "^k" up-line-or-beginning-search # Up
-bindkey "^j" down-line-or-beginning-search # Down
 
 compinit
 
@@ -90,8 +83,12 @@ else
 fi
 unset __conda_setup
 
+# Mamba is a more performant wrapper for conda 
 if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh" ]; then
     . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh"
 fi
 # <<< conda initialize <<<
+
+# Setting JAVA_HOME to point at JDK 18 for usage with Spark
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home
 
