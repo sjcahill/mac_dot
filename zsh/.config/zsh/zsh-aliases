@@ -47,11 +47,11 @@ alias gp="git push"
 alias gpo="git push origin"
 
 # Quick access to dotfiles and configs
-alias mydot="cd ~/my_dotfiles"
-alias nconf="cd ~/my_dotfiles/nvim/.config/nvim"
-alias qconf="cd ~/my_dotfiles/qtile/.config/qtile"
-alias zconf="cd ~/my_dotfiles/zsh/.config/zsh"
-alias xconf="cd ~/my_dotfiles/x"
+alias mydot="cd ~/mac_dot"
+alias nconf="cd ~/mac_dot/nvim/.config/nvim"
+alias qconf="cd ~/mac_dot/qtile/.config/qtile"
+alias zconf="cd ~/mac_dot/zsh/.config/zsh"
+alias xconf="cd ~/mac_dot/x"
 
 # TODO: Create some aliases for key-generation, signature checking
 alias start-agent="eval $(ssh-agent -s)"
