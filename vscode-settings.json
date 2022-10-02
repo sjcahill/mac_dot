@@ -1,0 +1,135 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.external.osxExec": "Kitty.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+    },
+    "[hcl]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true
+    },
+    "[terraform]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true
+    },
+    "[terraform-vars]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "full",
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[typescript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.formatOnType": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+    },
+    "[elixir]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.wordBasedSuggestions": false,
+        "editor.formatOnType": true,
+        "editor.acceptSuggestionOnEnter": "smart",
+        "editor.trimAutoWhitespace": false,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+    },
+    "[rust]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.inlayHints.enabled": "offUnlessPressed"
+    },
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>",
+                "l"
+            ]
+        }
+    ],
+    "python.condaPath": "/opt/homebrew/Caskroom/miniforge/base/bin/python",
+    "terminal.integrated.inheritEnv": false,
+    "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base/bin/python",
+    "yaml.schemas": {
+        "file:///Users/sj/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 11,
+    "debug.console.fontSize": 11,
+    "terminal.integrated.fontSize": 11,
+    "markdown.preview.fontSize": 12,
+    "indentRainbow.indentSetter": {},
+    "files.associations": {
+        "*.yml": "yaml"
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.flake8Args": [
+        "--max-line-length=100"
+    ],
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    "terminal.integrated.persistentSessionScrollback": 200,
+    "terminal.integrated.shellIntegration.history": 1000,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnPaste": true,
+    "material-icon-theme.opacity": 0.75,
+    "editor.snippetSuggestions": "top",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "editor.detectIndentation": false,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "go.alternateTools": {},
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true
+    },
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "editor.inlineSuggest.enabled": true,
+    "window.zoomLevel": 1,
+    "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": true,
+    "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
+    "eslint.packageManager": "yarn"
+}

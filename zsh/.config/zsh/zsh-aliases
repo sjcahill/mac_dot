@@ -61,6 +61,12 @@ alias add-gitkey="ssh-add ~/.ssh/arch-hyperv"
 alias scala2="$HOME/.local/share/coursier/bin/scala"
 alias scala="$HOME/.local/share/coursier/bin/scala3"
 
+# Rust aliases
+alias cgc="cargo check"
+alias ct="cargo test"
+alias cr="cargo run"
+alias cb="cargo build"
+
 
 # Colorize ls 
 case "$(uname -s)" in
