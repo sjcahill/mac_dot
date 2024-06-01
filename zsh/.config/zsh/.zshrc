@@ -92,3 +92,9 @@ fi
 # Setting JAVA_HOME to point at JDK 18 for usage with Spark
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home
 
+# Init rbenv to manage ruby versions
+eval "$(rbenv init - zsh)"
+
+# GPG key stuff, gets around ioctl error
+if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zshrc; \
+  else echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zprofile; fi
