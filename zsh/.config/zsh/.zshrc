@@ -61,7 +61,7 @@ compinit
 # Environment variables for applications
 if [ -f $(which nvim) ]
 then
-	export EDITOR"nvim"
+	export EDITOR="nvim"
 fi
 
 if [ -f $(which nvim) ]
